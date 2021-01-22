@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8118F63A315094007FCB8DF4 /* libPods-HeartstoneApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25DFFC9BFE76532230B4CBD9 /* libPods-HeartstoneApp.a */; };
+		9137A20A2540D0B400E75A08 /* CardsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9137A2082540D0B400E75A08 /* CardsTableViewCell.swift */; };
+		9137A20B2540D0B400E75A08 /* CardsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9137A2092540D0B400E75A08 /* CardsTableViewCell.xib */; };
+		CD18A83B2540AAC3003E6555 /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD18A83A2540AAC3003E6555 /* Cards.swift */; };
+		CD18A85025420BFC003E6555 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD18A84F25420BFC003E6555 /* CardViewController.swift */; };
+		CD41F49F2543476800772A8C /* CardsByCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD41F49E2543476800772A8C /* CardsByCategory.swift */; };
+		CD41F4A2254349B000772A8C /* CardsByCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD41F4A1254349B000772A8C /* CardsByCategoryViewController.swift */; };
+		CD41F4A6254349F700772A8C /* CardsByCategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD41F4A4254349F700772A8C /* CardsByCategoryTableViewCell.swift */; };
+		CD41F4A7254349F700772A8C /* CardsByCategoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD41F4A5254349F700772A8C /* CardsByCategoryTableViewCell.xib */; };
+		CD41F4AB25434C4B00772A8C /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD41F4AA25434C4B00772A8C /* APIManager.swift */; };
+		CD41F4B52545EB0A00772A8C /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD41F4B42545EB0A00772A8C /* Categories.swift */; };
+		CD41F4B92545EB7300772A8C /* CategoriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD41F4B72545EB7300772A8C /* CategoriesTableViewCell.swift */; };
+		CD41F4BA2545EB7300772A8C /* CategoriesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD41F4B82545EB7300772A8C /* CategoriesTableViewCell.xib */; };
+		CD41F4BD2545EBDB00772A8C /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD41F4BC2545EBDB00772A8C /* CategoriesViewController.swift */; };
+		CDCCD8942540939D008D6B61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCCD8932540939D008D6B61 /* AppDelegate.swift */; };
+		CDCCD8962540939D008D6B61 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCCD8952540939D008D6B61 /* SceneDelegate.swift */; };
+		CDCCD8982540939D008D6B61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCCD8972540939D008D6B61 /* ViewController.swift */; };
+		CDCCD89B2540939D008D6B61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDCCD8992540939D008D6B61 /* Main.storyboard */; };
+		CDCCD89D2540939E008D6B61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDCCD89C2540939E008D6B61 /* Assets.xcassets */; };
+		CDCCD8A02540939E008D6B61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDCCD89E2540939E008D6B61 /* LaunchScreen.storyboard */; };
+		CDCCD8B025409971008D6B61 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCCD8AF25409971008D6B61 /* Card.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		25DFFC9BFE76532230B4CBD9 /* libPods-HeartstoneApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HeartstoneApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		849F3886AED8B6242299D9E2 /* Pods-HeartstoneApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeartstoneApp.debug.xcconfig"; path = "Target Support Files/Pods-HeartstoneApp/Pods-HeartstoneApp.debug.xcconfig"; sourceTree = "<group>"; };
+		9137A2082540D0B400E75A08 /* CardsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsTableViewCell.swift; sourceTree = "<group>"; };
+		9137A2092540D0B400E75A08 /* CardsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardsTableViewCell.xib; sourceTree = "<group>"; };
+		A55FF937EA2F916B4028C517 /* Pods-HeartstoneApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeartstoneApp.release.xcconfig"; path = "Target Support Files/Pods-HeartstoneApp/Pods-HeartstoneApp.release.xcconfig"; sourceTree = "<group>"; };
+		CD18A83A2540AAC3003E6555 /* Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cards.swift; sourceTree = "<group>"; };
+		CD18A84F25420BFC003E6555 /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		CD41F49E2543476800772A8C /* CardsByCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsByCategory.swift; sourceTree = "<group>"; };
+		CD41F4A1254349B000772A8C /* CardsByCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsByCategoryViewController.swift; sourceTree = "<group>"; };
+		CD41F4A4254349F700772A8C /* CardsByCategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsByCategoryTableViewCell.swift; sourceTree = "<group>"; };
+		CD41F4A5254349F700772A8C /* CardsByCategoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardsByCategoryTableViewCell.xib; sourceTree = "<group>"; };
+		CD41F4AA25434C4B00772A8C /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		CD41F4B42545EB0A00772A8C /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
+		CD41F4B72545EB7300772A8C /* CategoriesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesTableViewCell.swift; sourceTree = "<group>"; };
+		CD41F4B82545EB7300772A8C /* CategoriesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoriesTableViewCell.xib; sourceTree = "<group>"; };
+		CD41F4BC2545EBDB00772A8C /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
+		CDCCD8902540939D008D6B61 /* HeartstoneApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeartstoneApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDCCD8932540939D008D6B61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDCCD8952540939D008D6B61 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CDCCD8972540939D008D6B61 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CDCCD89A2540939D008D6B61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDCCD89C2540939E008D6B61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDCCD89F2540939E008D6B61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDCCD8A12540939E008D6B61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDCCD8AF25409971008D6B61 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDCCD88D2540939C008D6B61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8118F63A315094007FCB8DF4 /* libPods-HeartstoneApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70B232EC99D3A943F940E367 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				849F3886AED8B6242299D9E2 /* Pods-HeartstoneApp.debug.xcconfig */,
+				A55FF937EA2F916B4028C517 /* Pods-HeartstoneApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9137A20D2540D0D000E75A08 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				9137A2082540D0B400E75A08 /* CardsTableViewCell.swift */,
+				9137A2092540D0B400E75A08 /* CardsTableViewCell.xib */,
+				CD41F4A4254349F700772A8C /* CardsByCategoryTableViewCell.swift */,
+				CD41F4A5254349F700772A8C /* CardsByCategoryTableViewCell.xib */,
+				CD41F4B72545EB7300772A8C /* CategoriesTableViewCell.swift */,
+				CD41F4B82545EB7300772A8C /* CategoriesTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		CD41F4B025436B6D00772A8C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CDCCD8AF25409971008D6B61 /* Card.swift */,
+				CD41F49E2543476800772A8C /* CardsByCategory.swift */,
+				CD18A83A2540AAC3003E6555 /* Cards.swift */,
+				CD41F4B42545EB0A00772A8C /* Categories.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CD41F4B225436B7F00772A8C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CD18A84F25420BFC003E6555 /* CardViewController.swift */,
+				CDCCD8972540939D008D6B61 /* ViewController.swift */,
+				CD41F4A1254349B000772A8C /* CardsByCategoryViewController.swift */,
+				CD41F4BC2545EBDB00772A8C /* CategoriesViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CDCCD8872540939C008D6B61 = {
+			isa = PBXGroup;
+			children = (
+				CDCCD8922540939D008D6B61 /* HeartstoneApp */,
+				CDCCD8912540939D008D6B61 /* Products */,
+				70B232EC99D3A943F940E367 /* Pods */,
+				D52FD3716547B8FDB2D5F02E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CDCCD8912540939D008D6B61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDCCD8902540939D008D6B61 /* HeartstoneApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDCCD8922540939D008D6B61 /* HeartstoneApp */ = {
+			isa = PBXGroup;
+			children = (
+				9137A20D2540D0D000E75A08 /* Cell */,
+				CDCCD8932540939D008D6B61 /* AppDelegate.swift */,
+				CDCCD8952540939D008D6B61 /* SceneDelegate.swift */,
+				CD41F4B225436B7F00772A8C /* Controllers */,
+				CDCCD8992540939D008D6B61 /* Main.storyboard */,
+				CDCCD89C2540939E008D6B61 /* Assets.xcassets */,
+				CD41F4AA25434C4B00772A8C /* APIManager.swift */,
+				CDCCD89E2540939E008D6B61 /* LaunchScreen.storyboard */,
+				CDCCD8A12540939E008D6B61 /* Info.plist */,
+				CD41F4B025436B6D00772A8C /* Models */,
+			);
+			path = HeartstoneApp;
+			sourceTree = "<group>";
+		};
+		D52FD3716547B8FDB2D5F02E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25DFFC9BFE76532230B4CBD9 /* libPods-HeartstoneApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDCCD88F2540939C008D6B61 /* HeartstoneApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDCCD8A42540939E008D6B61 /* Build configuration list for PBXNativeTarget "HeartstoneApp" */;
+			buildPhases = (
+				6D4466720F6EEFF409A9CA8B /* [CP] Check Pods Manifest.lock */,
+				CDCCD88C2540939C008D6B61 /* Sources */,
+				CDCCD88D2540939C008D6B61 /* Frameworks */,
+				CDCCD88E2540939C008D6B61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeartstoneApp;
+			productName = HeartstoneApp;
+			productReference = CDCCD8902540939D008D6B61 /* HeartstoneApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDCCD8882540939C008D6B61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					CDCCD88F2540939C008D6B61 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = CDCCD88B2540939C008D6B61 /* Build configuration list for PBXProject "HeartstoneApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDCCD8872540939C008D6B61;
+			productRefGroup = CDCCD8912540939D008D6B61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDCCD88F2540939C008D6B61 /* HeartstoneApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDCCD88E2540939C008D6B61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDCCD8A02540939E008D6B61 /* LaunchScreen.storyboard in Resources */,
+				CD41F4A7254349F700772A8C /* CardsByCategoryTableViewCell.xib in Resources */,
+				CDCCD89D2540939E008D6B61 /* Assets.xcassets in Resources */,
+				CD41F4BA2545EB7300772A8C /* CategoriesTableViewCell.xib in Resources */,
+				CDCCD89B2540939D008D6B61 /* Main.storyboard in Resources */,
+				9137A20B2540D0B400E75A08 /* CardsTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6D4466720F6EEFF409A9CA8B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HeartstoneApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDCCD88C2540939C008D6B61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDCCD8982540939D008D6B61 /* ViewController.swift in Sources */,
+				CDCCD8B025409971008D6B61 /* Card.swift in Sources */,
+				CD41F4A2254349B000772A8C /* CardsByCategoryViewController.swift in Sources */,
+				CD18A83B2540AAC3003E6555 /* Cards.swift in Sources */,
+				CD41F4AB25434C4B00772A8C /* APIManager.swift in Sources */,
+				CD41F4B52545EB0A00772A8C /* Categories.swift in Sources */,
+				CD41F49F2543476800772A8C /* CardsByCategory.swift in Sources */,
+				CD41F4A6254349F700772A8C /* CardsByCategoryTableViewCell.swift in Sources */,
+				9137A20A2540D0B400E75A08 /* CardsTableViewCell.swift in Sources */,
+				CD18A85025420BFC003E6555 /* CardViewController.swift in Sources */,
+				CDCCD8942540939D008D6B61 /* AppDelegate.swift in Sources */,
+				CD41F4B92545EB7300772A8C /* CategoriesTableViewCell.swift in Sources */,
+				CD41F4BD2545EBDB00772A8C /* CategoriesViewController.swift in Sources */,
+				CDCCD8962540939D008D6B61 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CDCCD8992540939D008D6B61 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDCCD89A2540939D008D6B61 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDCCD89E2540939E008D6B61 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDCCD89F2540939E008D6B61 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDCCD8A22540939E008D6B61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CDCCD8A32540939E008D6B61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDCCD8A52540939E008D6B61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 849F3886AED8B6242299D9E2 /* Pods-HeartstoneApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8T998FMSKS;
+				INFOPLIST_FILE = HeartstoneApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = IP.HeartstoneApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDCCD8A62540939E008D6B61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A55FF937EA2F916B4028C517 /* Pods-HeartstoneApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8T998FMSKS;
+				INFOPLIST_FILE = HeartstoneApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = IP.HeartstoneApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDCCD88B2540939C008D6B61 /* Build configuration list for PBXProject "HeartstoneApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDCCD8A22540939E008D6B61 /* Debug */,
+				CDCCD8A32540939E008D6B61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDCCD8A42540939E008D6B61 /* Build configuration list for PBXNativeTarget "HeartstoneApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDCCD8A52540939E008D6B61 /* Debug */,
+				CDCCD8A62540939E008D6B61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDCCD8882540939C008D6B61 /* Project object */;
+}

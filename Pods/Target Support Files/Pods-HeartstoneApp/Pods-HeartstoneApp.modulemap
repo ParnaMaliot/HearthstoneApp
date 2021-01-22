@@ -1,0 +1,6 @@
+module Pods_HeartstoneApp {
+  umbrella header "Pods-HeartstoneApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
